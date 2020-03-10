@@ -1,1 +1,31 @@
-Roll Out
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href ="main.css" rel="stylesheet"/>
+        <title>
+            MOOOOOSH!!!!:)
+        </title>
+    </head>
+    <body>
+        <audio id="loudaf">
+            <source src="fucku.mp3" type="audio/mp3">
+        </audio>
+        <audio id="couple">
+            <source src="moshcouple.mp3" type="audio/mp3">
+        </audio>
+        <div class="bingo">
+            <img src="image0.jpg" onclick = 'play("couple")'>
+        </div>
+        <div class = "fucku">
+            <img src= "boobienova.jpg" onclick='play("loudaf")'>
+        </div>
+        <script>
+            function play(file) {
+                var sound = document.getElementById(file);
+                sound.play();
+            }
+        </script>
+        
+            
+    </body>
+</html>
